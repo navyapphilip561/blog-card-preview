@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(246, 208, 80);
+    /* Light yellow */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Outfit', sans-serif;
+}
+
+/* The Card Container */
+.card {
+    background-color: white;
+    width: 320px;
+    padding: 80px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    text-align: center;
+}
+
+/* Styling the Image */
+.qr-img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.description {
+    background-color: rgb(246, 208, 80);
+    width: 100px;
+}
+
+/* Typography */
+.text-container {
+    padding: 10px 15px;
+}
+
+h1 {
+    font-size: 22px;
+    color: #1F314F;
+    /* Dark blue */
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 15px;
+    color: #7D889E;
+    /* Grayish blue */
+    line-height: 1.4;
+}
+
+.p1 {
+    font-family: cursive;
+    font-size: 15px;
+    text-align: left;
+}
+
+.contact {
+    width: 40px;
+    /* Adjust the size of the avatar as needed */
+    height: 40px;
+    border-radius: 50%;
+    /* Makes the avatar circular */
+}
+
+.author-name {
+    margin-left: 10px;
+    /* Gives John some breathing room from the image */
+    font-weight: bold;
+    /* Makes the name stand out */
+    font-size: 14px;
+}
+
+.author-info {
+    display: flex;
+    /* This puts items in a row */
+    align-items: center;
+    /* This centers the name vertically with the image */
+    margin-top: 15px;
+    /* Adds some space above the profile section */
+}
